@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "wendys": "https://www.wendys.com/vocab#",
+
+    "WendysRestaurant": "schema:FastFoodRestaurant",
+    "WendysMenuItem": "schema:MenuItem",
+    "WendysOrder": "schema:FoodOrder",
+    "WendysLoyaltyProgram": "schema:LoyaltyProgram",
+    "WendysFranchise": "schema:FoodEstablishment",
+    "WendysOffer": "schema:Offer",
+
+    "restaurantId": { "@id": "schema:identifier", "@type": "xsd:string" },
+    "restaurantName": { "@id": "schema:name", "@type": "xsd:string" },
+    "restaurantAddress": { "@id": "schema:address", "@type": "schema:PostalAddress" },
+    "restaurantPhone": { "@id": "schema:telephone", "@type": "xsd:string" },
+    "restaurantHours": { "@id": "schema:openingHoursSpecification" },
+    "drivethru": { "@id": "wendys:hasDriveThru", "@type": "xsd:boolean" },
+    "curbsidePickup": { "@id": "wendys:hasCurbsidePickup", "@type": "xsd:boolean" },
+    "freshAiEnabled": { "@id": "wendys:freshAiEnabled", "@type": "xsd:boolean" },
+
+    "menuItemId": { "@id": "schema:identifier", "@type": "xsd:string" },
+    "menuItemName": { "@id": "schema:name", "@type": "xsd:string" },
+    "menuItemDescription": { "@id": "schema:description", "@type": "xsd:string" },
+    "menuItemCategory": { "@id": "schema:inMenuSection", "@type": "xsd:string" },
+    "menuItemPrice": { "@id": "schema:offers", "@type": "schema:Offer" },
+    "calories": { "@id": "schema:calories", "@type": "xsd:integer" },
+
+    "orderId": { "@id": "schema:orderNumber", "@type": "xsd:string" },
+    "orderDate": { "@id": "schema:orderDate", "@type": "xsd:dateTime" },
+    "orderType": { "@id": "wendys:orderType", "@type": "xsd:string" },
+    "orderStatus": { "@id": "schema:orderStatus" },
+    "orderTotal": { "@id": "schema:price", "@type": "xsd:decimal" },
+
+    "rewardPoints": { "@id": "wendys:rewardPoints", "@type": "xsd:integer" },
+    "rewardTier": { "@id": "wendys:rewardTier", "@type": "xsd:string" }
+  }
+}

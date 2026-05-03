@@ -1,0 +1,85 @@
+vocabulary:
+  provider: Wendy's
+  description: >-
+    Vocabulary for The Wendy's Company, an international quick-service restaurant
+    chain with over 7,000 locations worldwide. Covers quick-service restaurant
+    operations, digital ordering, loyalty, franchise, AI-powered systems, and
+    food technology terminology.
+  tags:
+    - Restaurant
+    - Quick-Service
+    - Fast Food
+    - Digital Ordering
+    - Loyalty
+    - Franchise
+
+  domains:
+    - name: Restaurant Operations
+      terms:
+        - term: QSR (Quick-Service Restaurant)
+          definition: Fast food restaurant format where customers order and pay before eating and food is served quickly.
+        - term: Drive-Thru
+          definition: Service window allowing customers to order and receive food without leaving their vehicle.
+        - term: POS (Point of Sale)
+          definition: Restaurant technology system for processing customer orders and payments. Wendy's uses NCR Aloha POS.
+        - term: NCR Aloha
+          definition: POS platform used by Wendy's restaurant locations for order management and payment processing.
+        - term: BOH (Back of House)
+          definition: Restaurant kitchen and food preparation area.
+        - term: FOH (Front of House)
+          definition: Customer-facing areas of the restaurant including the dining room and order counter.
+        - term: FIFO (First In First Out)
+          definition: Food rotation principle ensuring older inventory is used before newer stock.
+
+    - name: Digital and Technology
+      terms:
+        - term: FreshAI
+          definition: Wendy's AI-powered voice ordering system developed with Google Cloud for drive-thru locations using large language models.
+        - term: Wendy's App
+          definition: Official mobile application for iOS and Android for mobile ordering, Rewards, and deals.
+        - term: Mobile Order
+          definition: Customer food order placed through the Wendy's app for in-store, drive-thru, or curbside pickup.
+        - term: Wendy's Frosty Rewards
+          definition: Wendy's loyalty rewards program providing points and free Frosty treats for purchases.
+        - term: PAR Technology
+          definition: Technology partner advancing Wendy's loyalty program capabilities.
+        - term: Google Cloud Partnership
+          definition: Strategic technology partnership with Google Cloud for FreshAI drive-thru AI ordering expansion.
+        - term: Third-Party Delivery
+          definition: Delivery services integrated with Wendy's including DoorDash, Grubhub, Postmates, and Uber Eats.
+
+    - name: Menu and Food
+      terms:
+        - term: Fresh, Never Frozen
+          definition: Wendy's trademark promise that beef patties are made from fresh beef, never frozen.
+        - term: Frosty
+          definition: Wendy's signature dessert product available in chocolate and vanilla flavors.
+        - term: Dave's Single / Double / Triple
+          definition: Core beef burger line named after Wendy's founder Dave Thomas.
+        - term: Baconator
+          definition: Wendy's premium bacon cheeseburger product.
+        - term: Made-to-Order
+          definition: Wendy's preparation model where food is assembled after the customer orders.
+        - term: Combo Meal
+          definition: Menu bundle combining an entree, side, and beverage at a discounted price.
+        - term: Value Menu
+          definition: Lower-priced menu items designed for budget-conscious customers.
+        - term: LTO (Limited Time Offer)
+          definition: Promotional menu item available for a limited period.
+
+    - name: Franchise Operations
+      terms:
+        - term: Franchisee
+          definition: Independent owner-operator who licenses the Wendy's brand and operates one or more locations.
+        - term: Franchise Agreement
+          definition: Legal contract between Wendy's and a franchisee governing operation standards, royalties, and rights.
+        - term: Royalty Fee
+          definition: Percentage of sales paid by franchisees to The Wendy's Company.
+        - term: QSC (Quality, Service, Cleanliness)
+          definition: Core operational standards evaluated during Wendy's restaurant inspections.
+        - term: DAVE Principles
+          definition: Wendy's cultural values framework based on founder Dave Thomas's principles.
+        - term: Company-Operated Restaurant
+          definition: Wendy's location owned and operated directly by The Wendy's Company rather than a franchisee.
+        - term: FreshAI Service Fee
+          definition: Annual fee of $20,004 per restaurant for AI voice ordering system, required for new Wendy's locations opening after August 2025.

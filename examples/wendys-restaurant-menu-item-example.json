@@ -1,0 +1,21 @@
+{
+  "description": "Example Wendy's restaurant menu item data",
+  "menuItem": {
+    "itemId": "WEN-ITEM-001",
+    "name": "Dave's Single",
+    "category": "Burgers",
+    "description": "A quarter-pound beef patty made with fresh, never frozen beef, topped with American cheese, crispy lettuce, tomato, pickles, ketchup, mayo, and onion on a toasted bun.",
+    "price": 5.49,
+    "currency": "USD",
+    "calories": 570,
+    "protein": 30,
+    "fat": 34,
+    "carbohydrates": 38,
+    "sodium": 1080,
+    "isAvailable": true,
+    "isCustomizable": true,
+    "allergens": ["wheat", "dairy", "soy", "egg"],
+    "imageCdnUrl": "https://cdn.wendys.com/menu/daves-single.jpg",
+    "availableChannels": ["in-store", "mobile-app", "drive-thru", "delivery"]
+  }
+}

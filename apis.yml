@@ -12,6 +12,8 @@ description: >-
   developer API is available; digital ordering is powered through internal
   platforms and third-party integrations.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/wendys-international
   - type: Website
     url: https://www.wendys.com
   - type: MobileApp

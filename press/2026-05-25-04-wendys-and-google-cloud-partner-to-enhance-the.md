@@ -1,7 +1,9 @@
 ---
 title: Wendy's and Google Cloud Partner to Enhance the ...
 url: https://www.googlecloudpresscorner.com/2021-10-12-Wendys-and-Google-Cloud-Partner-to-Enhance-the-Wendys-Restaurant-Experience
-date: '2026-05-25'
+published: '2021-10-12'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Wendy''s" press release artificial intelligence'
 position: 4
 source: serpapi-google

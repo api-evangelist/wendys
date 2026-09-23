@@ -1,7 +1,9 @@
 ---
 title: Leading Drive-Thru Innovation with Wendy's FreshAi
 url: https://www.wendys.com/blog/drive-thru-innovation-wendys-freshai
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Wendy''s" press release artificial intelligence'
 position: 2
 source: serpapi-google

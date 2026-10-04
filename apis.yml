@@ -1,4 +1,10 @@
 name: Wendys
+tags:
+- Restaurant
+- Fast Food
+- Quick Service Restaurant
+- Online Ordering
+- Loyalty
 aid: wendys
 deliveryModel:
   model: unknown
